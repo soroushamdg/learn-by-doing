@@ -30,6 +30,7 @@ struct CardView: View {
             
             Button {
                 print("Button tapped.")
+                playSound(sound: "sound-chime", type: "mp3")
             } label: {
                 HStack {
                     

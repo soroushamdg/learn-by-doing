@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		901D7B1128FF0834002D17CF /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D7B1028FF0834002D17CF /* CardModel.swift */; };
 		901D7B1328FF08AB002D17CF /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D7B1228FF08AB002D17CF /* CardData.swift */; };
+		901D7B1528FF0AF5002D17CF /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 901D7B1428FF0AF5002D17CF /* sound-chime.mp3 */; };
+		901D7B1728FF0B12002D17CF /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901D7B1628FF0B12002D17CF /* PlaySound.swift */; };
 		90C8E68F28FA0928004613D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8E68E28FA0928004613D5 /* AppDelegate.swift */; };
 		90C8E69128FA0928004613D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8E69028FA0928004613D5 /* SceneDelegate.swift */; };
 		90C8E69328FA0928004613D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8E69228FA0928004613D5 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		901D7B1028FF0834002D17CF /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		901D7B1228FF08AB002D17CF /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		901D7B1428FF0AF5002D17CF /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		901D7B1628FF0B12002D17CF /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		90C8E68B28FA0928004613D5 /* Learn By Doing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Learn By Doing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C8E68E28FA0928004613D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90C8E69028FA0928004613D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,7 @@
 		90C8E68D28FA0928004613D5 /* Learn By Doing */ = {
 			isa = PBXGroup;
 			children = (
+				901D7B1428FF0AF5002D17CF /* sound-chime.mp3 */,
 				90C8E68E28FA0928004613D5 /* AppDelegate.swift */,
 				90C8E69028FA0928004613D5 /* SceneDelegate.swift */,
 				90C8E69228FA0928004613D5 /* ViewController.swift */,
@@ -73,6 +78,7 @@
 				90C8E6A228FA0C87004613D5 /* CardView.swift */,
 				90C8E69C28FA0929004613D5 /* Info.plist */,
 				90C8E6A428FB2DC0004613D5 /* ContentView.swift */,
+				901D7B1628FF0B12002D17CF /* PlaySound.swift */,
 				901D7B1028FF0834002D17CF /* CardModel.swift */,
 				901D7B1228FF08AB002D17CF /* CardData.swift */,
 			);
@@ -138,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90C8E69B28FA0929004613D5 /* LaunchScreen.storyboard in Resources */,
+				901D7B1528FF0AF5002D17CF /* sound-chime.mp3 in Resources */,
 				90C8E69828FA0929004613D5 /* Assets.xcassets in Resources */,
 				90C8E69628FA0928004613D5 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90C8E69328FA0928004613D5 /* ViewController.swift in Sources */,
+				901D7B1728FF0B12002D17CF /* PlaySound.swift in Sources */,
 				90C8E6A528FB2DC0004613D5 /* ContentView.swift in Sources */,
 				90C8E68F28FA0928004613D5 /* AppDelegate.swift in Sources */,
 				901D7B1328FF08AB002D17CF /* CardData.swift in Sources */,
