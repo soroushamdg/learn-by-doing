@@ -14,7 +14,9 @@ struct CardView: View {
     @State private var fadeIn: Bool = false
     @State private var moveDownward: Bool = false
     @State private var moveUpward: Bool = false
-        
+    
+    var hapticImpact = UIImpactFeedbackGenerator(style: .heavy)
+    
     var body: some View {
         ZStack{
             Image(card.imageName)
@@ -33,8 +35,11 @@ struct CardView: View {
             .offset(y: moveDownward ? -218 : -300)
             
             Button {
+                
                 print("Button tapped.")
                 playSound(sound: "sound-chime", type: "mp3")
+                hapticImpact.impactOccurred()
+                
             } label: {
                 HStack {
                     
